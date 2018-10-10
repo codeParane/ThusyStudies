@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="BasicApp" ng-init="applicationName = 'Basic Angular'">
+<head>
+    <script src="angular.min.js"></script>
+</head>
+<body>
+    <!-- Module -->
+
+    <!-- Expression binding - one way and two way binding-->
+    Interpolation Binding -  Hi hello Welcome to {{ 2000 + 18 }}
+    ng-bind <h5 ng-bind="2000 + 18"></h5>
+
+    <!-- Controller -->
+    Controller - used to control the data flow within applications
+    <h5 ng-controller="greetingCtrl">Controller Controled : 0{{ greeting }}</h5>
+
+    <!-- Directives - used to extend the function of html Elements -->
+    ng-app : initialize an AngularJS Application
+    <br> ng-init : initialize when application load - get value on load <b>{{ applicationName }}</b>
+    <br> ng-model : <input type="text" ng-model="name"> / ng-bind : Your input is : <i ng-bind="name"></i>
+    <br> ng-include : include the external html files <div ng-include="ext.htm"></div>
+
+    <!-- Custom Directive -->
+    <br>Call as Element Name : <custDirective></custDirective>
+    <br>Call as Attribute : <i custDirective></i>
+    <br>Call as Class : <i class="custDirective"></i>
+
+    <!-- Filter - used to format the data-->
+    <br> 200.12 Currency Filter Used {{ 200.12 | currency }}
+
+    <!-- custom filter -->
+    <br> Before Reverse ABCDE after reverse {{ 2000+18 | custFilter }}
+    
+    <!-- Events -->
+    <div ng-controller="eventCtrl">
+        <h5> Count is : {{ x }}</h5>
+        <button ng-click="increment()">Click To Increment</button>
+    </div>
+    
+
+
+
+<script>
+var BasicApp = angular.module("BasicApp", []);
+
+// Controller
+BasicApp.controller("greetingCtrl", function($scope){
+    $scope.greeting = "Welcome to angular tutorials!!!"
+});
+
+
+// Custom Directive
+BasicApp.directive("custDirective", function(){
+    return {
+        template : "<h5>custom directive template</h5>"
+    }
+});
+
+// Custom Filter
+BasicApp.filter("custFilter", function(){
+    return function(str){
+        var reverse = str.reverse();
+        return reverse;
+    }
+});
+
+// event Controller
+BasicApp.controller("eventCtrl",function($scope){
+    $scope.x = 10;
+    $scope.increment = function(){
+        $scope.x ++;
+    };
+});
+
+
+
+</script>
+    
+</body>
+</html>
