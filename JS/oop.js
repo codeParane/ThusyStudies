@@ -1,19 +1,14 @@
-document.write("test");
-
-
-let stu1 = {
-    name:Kamal,
-    grade:3,
-    marks:English
+//Object
+// key : value
+let student = {
+    name : "Kamal", 
+    age : 25,
 }
+document.write(student.name);
+student.gender = "Male";
 
-Data type 
-Primitative - number, string, boolean 
-Reference Type Object  - Object
+document.write(student.gender);
+student["parent Name"] = "Vimal";
 
-// Integer, String, Object, Boolean apram Static x = 10; 
-// int, string, bool,  y = 10;
 
-run(){
-    static 
-}
+document.write(student["parent Name"]);

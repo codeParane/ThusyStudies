@@ -36,28 +36,37 @@
         <h5> Count is : {{ x }}</h5>
         <button ng-click="increment()">Click To Increment</button>
     </div>
-    
+    0-=--0
 
 
 
 <script>
-var BasicApp = angular.module("BasicApp", []);
+
+angular.module("name", [])
+
+
+
+
+
+var ApplicatioModule = angular.module("BasicApp", []);
 
 // Controller
-BasicApp.controller("greetingCtrl", function($scope){
+ApplicatioModule.controller("greetingCtrl", function($scope){
     $scope.greeting = "Welcome to angular tutorials!!!"
 });
 
-
 // Custom Directive
-BasicApp.directive("custDirective", function(){
+ApplicatioModule.directive("custDirective", function(){
     return {
         template : "<h5>custom directive template</h5>"
     }
 });
+.subStr();
 
+{{ 12.98 | currency }}  =->  $12.98
+{{ "ABCD" | custFilter }}  =-> "DCBA"
 // Custom Filter
-BasicApp.filter("custFilter", function(){
+ApplicatioModule.filter("custFilter", function(){
     return function(str){
         var reverse = str.reverse();
         return reverse;
@@ -65,7 +74,7 @@ BasicApp.filter("custFilter", function(){
 });
 
 // event Controller
-BasicApp.controller("eventCtrl",function($scope){
+ApplicatioModule.controller("eventCtrl",function($scope){
     $scope.x = 10;
     $scope.increment = function(){
         $scope.x ++;
