@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="chkApp" ng-init="applicationName = 'Basic Angular'">
+
+<head>
+    <script src="angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-controller="Ctrl1">
+        <label ng-repeat="role in roles">
+            <input type="checkbox" checklist-model="user.roles" checklist-value="role"> {{role}}
+        </label>
+    </div>
+
+    <script>
+        var app = angular.module('chkApp', []);
+
+        app.controller('Ctrl1', function ($scope) {
+            $scope.roles = [
+                'guest',
+                'user',
+                'customer',
+                'admin'
+            ];
+            $scope.user = {
+                roles: ['user']
+            };
+            $scope.checkAll = function () {
+                $scope.user.roles = angular.copy($scope.roles);
+            };
+            $scope.uncheckAll = function () {
+                $scope.user.roles = [];
+            };
+            $scope.checkFirst = function () {
+                $scope.user.roles.splice(0, $scope.user.roles.length);
+                $scope.user.roles.push('guest');
+            };
+        });
+
+    </script>
+
+</body>
+
+</html>

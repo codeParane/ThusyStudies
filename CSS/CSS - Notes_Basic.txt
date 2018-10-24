@@ -1,0 +1,66 @@
+# CSS 
+  > Basic
+	- Applying CSS
+	There are three ways to apply CSS to HTML
+		Inline - Inline styles are plonked straight into the HTML tags using the style attribute
+		<p style="color: red">text</p>
+		Internal - Embedded, or internal, styles are used for the whole page. Inside the head element, the style tags surround all of the styles for the page.
+		<style>
+			p {	color: red; }
+		</style>
+		External - External styles are used for the whole, multiple-page website. There is a separate CSS file
+		styles.css
+		p { color: red; }
+	- CSS Syntex   h1{color: red;}
+		selector {properties : value;} 
+	- Selectors - CSS are used to "find" (or select) HTML elements based on their element name, id, class, attribute, and more.
+		element Selector - element selector selects elements based on the element name.
+		id selector :  uses the id attribute of an HTML element to select a specific element.  <div id="cls"></div>     -  #cls{}
+		css selector : selects elements with a specific class attribute. - <div class="cls"></div>     -  .cls{}
+		universal selector : Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces. - * div{//select all div}
+		attribute selectors   : 
+			[attr]  - select Elements which have particular attribute
+			[attr=value] - select elements with a specified attribute and value.
+	- Combinators : // EX_CSS_1
+	- Pseudo-classes : llow the selection of elements based on state information that is not contained in the document tree.
+		a:visited will match all <a> elements that have been visited by the user.
+	- Pseudo-elements represent entities that are not included in HTML.
+		p::first-line will match the first line of all <p> elements.
+	- properties:  inside curly brackets, which simply take the form of words such as color, font-weight or background-color.
+	- values : There are many property-specific units for values used in CSS, but there are some general units that are used by a number of properties 
+	  	px (such as font-size: 12px) is the unit for pixels.
+	  	em (such as font-size: 2em) is the unit for the calculated size of a font. So “2em”, for example, is two times the current font size.
+	  	pt (such as font-size: 12pt) is the unit for points, for measurements typically in printed media.
+	  	% (such as width: 80%) is the unit for… wait for it… percentages.
+	- Colors : CSS brings 16,777,216 colors. can take the form of a name, an RGB (red/green/blue) value or a hex code.
+		predeifined : it include aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. transparent is also a valid value.
+		RGB : RGB value are from 0 to 255, 0 being the lowest level (no red, for example), 255 being the highest level (full red, for example). 
+			These values can also be a percentage.   rgb(255,0,0),   rgb(100%,0%,0%)
+		Hexadecimal : generally used to the decimal number system (base-10, from 0 to 9), but hexadecimal has 16 digits, from 0 to f. 
+			prefixed with (#) and can be three or six digits in length. 
+			Basically, the three-digit version is a compressed version of the six-digit #ff0000 becomes #f00, #cc9966 becomes #c96
+		we can use it for color:for font color; background-color: to change the color of background;
+	- Text : using it alter the size and shape of the text on a web page with a range of properties.
+		font-family : The purpose of this is that if the user does not have the first font you specify, 
+			the browser will go through the list until it finds one it does have. 
+			This is useful because different computers sometimes have different fonts installed. 
+		font-size : font-size sets the size of the font (12pt, 12px, 12%, 12em)
+		font-weight : it states whether the text is bold or not (bold(700), normal(400), bolder, lighter, 100 - 900.)
+		font-style : it states whether the text is italic or not. It can be font-style: italic or font-style: normal.
+		text-decoration : it states whether the text has got a line running under, over, or through it.(underline, overline, line-through, none)
+		text-transform : will change the case of the text.(Capitalize, Uppercase, lowercase, none)
+		Text spacing : p { letter-spacing: 0.5em; word-spacing: 2em; line-height: 1.5; text-align: center; }
+		* h2{font: italic bold 12px calibri;} - short hand
+	- Margins and Padding : two most commonly used properties for spacing-out elements.
+		Margin : space outside something h2{margin : 10px;}
+		padding : space inside something div{padding : 10px;}
+		* The four sides of an element can also be set individually. 
+		margin-top, margin-right, margin-bottom, margin-left, 
+		padding-top, padding-right, padding-bottom and padding-left
+		{padding:10px, 5px, 10px, 5px}, {margin:10px, 2px, 10px, 2px} - short hand
+	- borders : applied to most HTML elements within the body.
+		border-style : Set the style of border (solid, dotted, dashed, double, groove, ridge, inset and outset)
+		border-width : sets the width of the border (border-width:2px;)
+			* can use separtely border-top-width, border-right-width, border-bottom-width and border-left-width.
+		border-color : sets the color (h1{border-color: red;})
+		* h1{border:2px solid red;} - short hand
