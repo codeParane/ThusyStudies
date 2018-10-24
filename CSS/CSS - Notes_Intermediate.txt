@@ -83,19 +83,49 @@ CSS
         Greater Precedence : If the selectors are the same then the last one will always take precedence.
             p { color: red }
             p { color: blue } // this will apply
-        Calculating Specificity : 
+        Calculating Specificity : ID selector - 100, class selector - 10 and HTML selector - 1. 
+            div p  - 2 (2 HTML selectors, 1+1)
+            div p.tree - 12 (2 HTML selectors + a class selector, 1+1+10)
+            body #content .alternative p - 112 (HTML selector + id selector + class selector + HTML selector, 1+100+10+1)
 
+    - Display : The most fundamental types of display are inline, block and none and they can be manipulated with the display property
+        none : No display at all — pulls a box out of the flow of a layout and renders it invisible. Poof. As if it never existed.
+        inline : An inline box — behaves like the default styling of inline HTMl elements such as em or span.
+        block : A block box — behaves like the default styling of block HTMl elements such as p or div.
+        inline-block : Acts as an inline box (fits into the flow of a line of text) with certain features of a block box (accepts vertical dimensions and margings, etc.).
+        list-item : The equivalent of the default styling of the HTML li element.
+        table : A block-level table — the equivalent of the default styling of the HTML table element.
+        inline-table : An inline-level table.
+        table-row-group	: The equivalent of the default styling of the HTML tbody element.
+        table-header-group : The equivalent of the default styling of the HTML thead element.
+        table-footer-group : The equivalent of the default styling of the HTML tfoot element.
+        table-row : The equivalent of the default styling of the HTML tr element.
+        table-column-group : The equivalent of the default styling of the HTML colgroup element.
+        table-column : The equivalent of the default styling of the HTML col element.
+        table-cell : The equivalent of the default styling of the HTML td or th elements.
+        table-caption : The equivalent of the default styling of the HTML caption element.
+        inherit
+        initial
+        unset
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - Visility : The visibility, or invisibility, of a box.
+        visible	Default.
+        hidden	Invisible. unlike display: none it size and shape will still affect layout.
+        collapse Various table row and column hiding shenanigans.
+        inherit
+        initial
+        unset
+    
+    - Page Layout : In the olden days, pre-hominid apes used HTML tables to layout web pages
+        Positioning : The position property is used to define whether a box is absolute, relative, static or fixed
+            static : renders a box in the normal order of things, as they appear in the HTML.
+            relative : box can be offset from its original position with the properties top, right, bottom and left.
+            absolute : box can be placed anywhere on the page using top, right, bottom and left.
+            fixed : fixed boxes should stay exactly where they are on the screen even when the page is scrolled. 
+        Floating : box will shift it to the right or left of a line, with surrounding content flowing around it. 
+            float: left or float: right.
+        Clear : How a box following a floated box should behave.
+            none	Floated boxes are not cleared — content will flow around them. Default.
+            left	Left-floated boxes are cleared. Box is placed underneath.
+            right	Right-floated boxes are cleared. Box is placed underneath.
+            both	All floated boxes are cleared. Box is placed underneath.
