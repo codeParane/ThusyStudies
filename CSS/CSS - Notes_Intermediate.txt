@@ -1,1 +1,101 @@
-Notes Preparing 
+CSS
+  > Intermediate
+	- Css Selectors
+		Basic selectors : 
+			element	- Matches an element.	p { color: red } - matches paragraphs
+			.class	- Matches the value of a class attribute.	.warning { color: red } matches elements containing class="warning" 
+			#id	- Matches the value of an id attribute.	#warning { color: red } - matches elements containing id="warning" 
+			*	- Matches everything.	* { color: red } 
+		Attribute selectors : 
+			[attribute]	Matches elements containing a given attribute.	a[href] { color: red } 
+            [attribute="x"]	    - given attribute with a given value.	a[href="/sitemap/"] { color: red }
+            [attribute~="x"]	- given attribute with a value that contains a sub-value within a space-separated list.	abbr[title~="Style"] { color: red }
+            [attribute^="x"]	- given attribute with a value that starts with something.	a[href^="http://"] { color: red }
+            [attribute|="x"]	- given attribute with a value that contains a sub-value within a hyphen-separated list.	html[lang|="en"] { color: red }
+            [attribute$="x"]	- given attribute with a value that ends with something.	a[href$=".com"] { color: red }
+            [attribute*="x"]	- given attribute with a value that contains something.	a[href*="htmldog"] { color: red }
+        Psudeo classes : 
+            :link - a link that has not been visited.	a:link { color: blue }
+            :visited - a link thas has been visited.	a:visited { color: purple }
+            :active - element that is being activated, such as a link being clicked on.	a:active { color: red }
+            :hover - element whose box is being hovered over by a cursor.	a:hover { text-decoration: none }
+            :focus - element that has focus, such as one that has been tabbed to.	a:focus { border: 1px solid yellow }
+            :target - element that has been linked to (via <a href="#x"…, for example).	h2:target { color: red }
+            :lang() - element of a given language.	p:lang(fr) { color: red }
+            :first-child - first child of an element.	p:first-child { color: red }
+            :last-child - the last child of an element.	div p:last-child { color: blue }
+            :first-of-type - first sibling of its type in an element.	li:first-of-type { color: red }
+            :last-of-type - the last sibling of its type in an element.	li:last-of-type { color: blue }
+            :nth-child() - element that is the ordinal number child of its parent.	p:nth-child(3) { color: red }
+            :nth-last-child() - element that is the ordinal number child, in reverse order, of its parent.	p:nth-last-child(2) { color: blue }
+            :nth-of-type() - element that is the ordinal number sibling of its type.	li:nth-of-type(5) { color: red }
+            :nth-last-of-type() - element that is the ordinal number sibling, in reverse order, of its type.	li:nth-of-type(5) { color: red }
+            :only-child	- element if it is the only child of its parent.	article p:only-child { color: red }
+            :only-of-type - element if it is the only sibling of its type.	article aside:only-of-type { color: blue }
+            :empty - element with no children, or content.	td:empty { border-color: red }
+            :root - root element of a document. This will be the html element in HTML.	:root { background: yellow }
+            :enabled - form control elements that are not disabled.	input:enabled { border-color: lime }
+            :disabled - form control elements that are disabled.	input:enabled { border-color: red }
+            :checked - a radio or checkbox type input element that is checked.	input:checked { outline: 3px solid yellow }
+            :not() - Negotiation pseudo-class. Matches an element that does not match a selector.	p:not(:first-child) { color: orange }
+        Psuedo Elements : 
+            ::first-line - first textual line in an element.	p::first-line { font-weight: bold }
+            ::first-letter - first letter in an element.	p::first-letter { font-size: 2em }
+            ::before - used with the content property to generate content before the initial content of an element.	h1::before { content: "*" }
+            ::after	 - Used with the content property to generate content after the initial content of an element.	h1::after { content: "+" }
+        Combinators : 
+            selector selector	Descendant combinator - elements that are descendants of another element.	aside p { color: red }
+            selector > selector	Child combinator - elements that are children of another element.	.warning > p { color: red }
+            selector + selector	Adjacent sibling combinator - elements that immediately follow another element.	h1 + * { color: red }
+            selector ~ selector	General sibling combinator - elements that follow another element.	h2 ~ p { color: red }
+
+    - Grouping and nesting : simplfy the code and easier to manage
+        Grouping : give the same properties to a number of selectors without having to repeat them.
+            h2, .thisOtherClass, .yetAnotherClass { color: red; }
+        Nesting : can specify properties to selectors within other selectors.
+            //html
+            <div id="top">
+                <h1>Chocolate curry</h1>
+                <p>This is my recipe for making curry purely with chocolate</p>
+                <p>Mmm mm mmmmm</p>
+            </div>
+            //css
+            #top { background-color: #ccc; padding: 1em}
+            #top h1 { color: #ff0; }
+            #top p { color: red; font-weight: bold; }
+    
+    - background images : are a powerful way to add detailed presentation to a page.
+        background-color, already learned
+        background-image, which is the location of the image itself.    
+        background-repeat 
+            repeat, the equivalent of a “tile” effect across the whole background
+            repeat-y, repeating on the y-axis, above and below
+            repeat-x repeating on the x-axis, side-by-side
+            no-repeat which shows just one instance of the image
+        background-position : (top, center, bottom, left, right, a length, or a percentage, or any sensible combination, such as top right)
+    
+    - Specificity :  two (or more) conflicting CSS rules that point to the same element, 
+        there are some basic rules that a browser follows to determine which one is most specific and therefore wins out. 
+        More Specific : below p within a div would be colored blue, seeing as a rule to color p boxes blue comes last, 
+            but they would actually be colored red due to the specificity of the first selector
+            div p { color: red } // this will apply
+            p { color: blue }
+        Greater Precedence : If the selectors are the same then the last one will always take precedence.
+            p { color: red }
+            p { color: blue } // this will apply
+        Calculating Specificity : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
