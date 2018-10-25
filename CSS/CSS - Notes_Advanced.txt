@@ -43,5 +43,24 @@ CSS
       @media : used to apply styles to a specific media, such as print.
       @font-face : for embedding fonts in a web page so that a typeface can be used even if it isn’t on user’s computer. 
 
-
-      
+    - CSS Transitions : to easily animate parts of your design without the need for the likes of JavaScript
+      transition: all .5s linear 0;
+        transition-property: which property (or properties) will transition.
+        transition-duration: how long the transition takes.
+        transition-timing-function: if the transition takes place at a constant speed or if it accelerates and decelerates.
+        transition-delay: how long to wait until the transition takes place.
+    
+    - CSS Backgrounds : 
+      Multiple backgrounds : multiple background images to a single box - background-image: url(this.jpg), url(that.gif), url(theother.png);
+      Background size : allows you to stretch or compress a background image 
+        auto : maintains the background image’s original size and width/height ratio.
+        lengths : a width and a height, such as 100px 50px
+        percentages : a width and a height, such as 50% 25%
+        contain : original ratio and makes it as large fitting entirely within the box’s background area.
+        cover : original ratio and makes it large enough to fill the entire background area
+      Background origin : specifies the origin position of a background image.
+        padding-box	Default value. The background image starts from the upper left corner of the padding edge	
+        border-box	The background image starts from the upper left corner of the border	
+        content-box	The background image starts from the upper left corner of the content
+    
+    - Transformations
