@@ -40,7 +40,7 @@ CSS
     
     - At rules : encapsulate a bunch of CSS rules and apply them to something specific.
       @import : used to bolt another stylesheet onto your existing one. (@import url(morestyles.css);)
-      @media : used to apply styles to a specific media, such as print.
+      @media : used to apply styles to a specific media, such as print.  //later explained briefly
       @font-face : for embedding fonts in a web page so that a typeface can be used even if it isn’t on user’s computer. 
 
     - CSS Transitions : to easily animate parts of your design without the need for the likes of JavaScript
@@ -63,4 +63,40 @@ CSS
         border-box	The background image starts from the upper left corner of the border	
         content-box	The background image starts from the upper left corner of the content
     
-    - Transformations
+    - Transformations :  stretch and mold those boxes into all manner of shapes.
+      Rotating : to spin - transform: rotate(-10deg);
+      Skewing : to tip the horizontal and vertical - transform: skew(20deg,10deg);
+      Scaling : multiply width and height, and size of everything contained in the box transform: scale(2);
+      Translating : shift a box horizontally and vertically transform: translate(100px,200px);
+      Matrix (rotating, skewing, scaling, and translating) - transform: matrix(2,-0.35,0.35,2,0,0);
+      * Combining transformations transform: rotate(-10deg) scale(2);
+      origin : the origin of the transformation - transform-origin: 0 0;
+
+    - Gradients : Smooth dissolve from one color to another 
+      Linear gradients : even spread of 2 colors, fading from one at the top to another at the bottom
+        linear-gradient(yellow, red);
+          Manipulate the angel : background: linear-gradient(to right, orange, red);
+          One corner: background: linear-gradient(to bottom right, orange, red);
+          Angle : background: linear-gradient(20deg, orange, red);
+      Radial gradients : One color starting from a central point and fading to another color
+        radial-gradient(yellow, green);
+          specify the shape of the fade : background: radial-gradient(circle, yellow, green);   
+          specify if the gradient by the sides or corners radial-gradient(circle closest-side, yellow, green);
+          “closest-side”, “closest-corner”, “farthest-side” and “farthest-corner”
+          specify the origin - background: radial-gradient(at top left, yellow, green);
+      Repeating gradient :  “repeating-linear-gradient” to build on the color stops and, well, repeat the gradient.
+        background: repeating-linear-gradient(white, black 15px, white 30px);
+
+    - Media Queries :  enabling you to specify different design choices depending on screen size
+      Browser-size specific CSS :  can screen-based media be targeted, screen-based media of a certain size can be targeted as well
+      Orientation-specific CSS : @media screen and (orientation: landscape) {#nav { float: left } }
+      Device-specific CSS : specify the likes of the device’s screen dimensions and its pixel ratio.
+        Width and height : device-width, device-height, min-device-width, max-device-width, min-device-height and max-device-height 
+          can be used to target the computed resolution of a device 
+          @media screen and (min-device-height: 768px) and (max-device-width: 1024px) {}
+        Pixel ratio : CSS pixel need not be the same as a physical pixel. While a screen may physically be 720 pixels wide, 
+          a browser may actually apply CSS assuming that it is 480 pixels wide  
+          @media (device-pixel-ratio: 2){}
+      Other : @media screen and (resolution: 326dpi) { /* */ }
+              @media screen and (min-resolution: 96dpi) { /* */ }
+              @media screen and (device-aspect-ratio: 16/9) { /* */ }
