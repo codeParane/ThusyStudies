@@ -18,7 +18,7 @@
 	- Selectors - CSS are used to "find" (or select) HTML elements based on their element name, id, class, attribute, and more.
 		element Selector - element selector selects elements based on the element name.
 		id selector :  uses the id attribute of an HTML element to select a specific element.  <div id="cls"></div>     -  #cls{}
-		css selector : selects elements with a specific class attribute. - <div class="cls"></div>     -  .cls{}
+		class selector : selects elements with a specific class attribute. - <div class="cls"></div>     -  .cls{}
 		universal selector : Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces. - * div{//select all div}
 		attribute selectors   : 
 			[attr]  - select Elements which have particular attribute
@@ -26,7 +26,7 @@
 
 	- Combinators : // EX_CSS_1
 	
-	- Pseudo-classes : llow the selection of elements based on state information that is not contained in the document tree.
+	- Pseudo-classes : allow the selection of elements based on state information that is not contained in the document tree.
 		a:visited will match all <a> elements that have been visited by the user.
 
 	- Pseudo-elements represent entities that are not included in HTML.
@@ -75,3 +75,8 @@
 			* can use separtely border-top-width, border-right-width, border-bottom-width and border-left-width.
 		border-color : sets the color (h1{border-color: red;})
 		* h1{border:2px solid red;} - short hand
+
+
+
+
+
