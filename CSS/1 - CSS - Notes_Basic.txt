@@ -25,7 +25,7 @@
 			[attr=value] - select elements with a specified attribute and value.
 
 	- Combinators : // EX_CSS_1
-	
+
 	- Pseudo-classes : allow the selection of elements based on state information that is not contained in the document tree.
 		a:visited will match all <a> elements that have been visited by the user.
 
@@ -75,8 +75,3 @@
 			* can use separtely border-top-width, border-right-width, border-bottom-width and border-left-width.
 		border-color : sets the color (h1{border-color: red;})
 		* h1{border:2px solid red;} - short hand
-
-
-
-
-
