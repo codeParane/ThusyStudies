@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\bin\Debug\netcoreapp2.1\Codes.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\bin\Debug\netcoreapp2.1\Codes.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\bin\Debug\netcoreapp2.1\Codes.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\bin\Debug\netcoreapp2.1\Codes.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\bin\Debug\netcoreapp2.1\Codes.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Algorithms\Codes\obj\Debug\netcoreapp2.1\Codes.pdb
