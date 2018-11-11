@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\bin\Debug\netcoreapp2.1\Pattern.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\bin\Debug\netcoreapp2.1\Pattern.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\bin\Debug\netcoreapp2.1\Pattern.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\bin\Debug\netcoreapp2.1\Pattern.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\bin\Debug\netcoreapp2.1\Pattern.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Exercises\Pattern\obj\Debug\netcoreapp2.1\Pattern.pdb
