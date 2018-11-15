@@ -9,7 +9,7 @@ public class Patterns
             Console.Write("*");
         }
     }
-e
+
     public void print2()
     {
         /*
@@ -20,7 +20,7 @@ e
         *
         */
         for (int i = 1; i <= 5; i++)
-        {
+        { 
             Console.WriteLine("*");
         }
     }
