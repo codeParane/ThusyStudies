@@ -1,0 +1,11 @@
+    VB6                            c#, f#, .net , other lang
+human readable codes                    |
+    |
+    |
+    |
+Machine readable codes
+    Assembly dll, exe
+
+
+
+C work with electorincs - Machine codes - can directly communicate machines    

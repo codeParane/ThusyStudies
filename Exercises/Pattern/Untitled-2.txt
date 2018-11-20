@@ -1,0 +1,13 @@
+C#, .net, vb, f#, other lang
+dotnet Application
+Source Code/ Human readable code
+    |
+    |Assembly (using respective compiler)
+    |
+Intermediate language (dll, exe)
+    |
+    |JIT compiler(Garbage Collector )
+    |
+    |               dotnet framework  needs to run
+    |
+Machine Code/ native langu
