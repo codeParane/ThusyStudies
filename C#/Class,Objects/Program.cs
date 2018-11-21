@@ -6,32 +6,29 @@ namespace Class_Objects
     {
         static void Main(string[] args)
         {
+
+            /*
+            //Class&Obj.cs - Class and methods
             //object - instance of class 
-            Vehicle car = new Vehicle(); 
+            Vehicle car = new Vehicle();
             car.canRun();
+            */
 
-         
+            /*
+            //Iterface.cs  - initilization
+            Student s1 = new Student();
+            s1.canLearn();
+            Console.WriteLine("is student passed ? " + s1.isPassed());
+            //cant initlize the object from interface 
+            // IStudent is1 = new IStudent();
+            */
+
+            /* 
+            //Constructor
+            ClsConstructor c1 = new ClsConstructor();
+            ClsConstructor c2 = new ClsConstructor(20);
+            GC.Collect();
+            */
         }
     }
-
-
-    //Class - properties and methods that are used to represent a  real time entity
-    // accessModifier class className{
-    //  implementaiton
-    // }
-    class Vehicle
-    {
-        //proerties
-        int engineCC;       //class variables
-        string name;        //class variables
-
-        //metods
-        // accessModifier returnType methodName{
-        //  implementaiton
-        // }
-        public void canRun(){
-            Console.WriteLine("This Vehicle can Run");
-        }
-    }
-   
 }

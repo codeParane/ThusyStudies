@@ -4,7 +4,7 @@ namespace OOP
 {
     class Vehicle
     {
-        public void engine()
+        public virtual void engine()
         {
             Console.WriteLine("I have an Engine!");
         }
@@ -15,6 +15,9 @@ namespace OOP
         public void canDrift()
         {
             Console.WriteLine("I can Drift");
+        }
+        public new void engine(){
+            Console.Write("I have a car engine");
         }
     }
     class Ship : Vehicle
