@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\bin\Debug\netcoreapp2.1\ObjectOrientedProgramming.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\bin\Debug\netcoreapp2.1\ObjectOrientedProgramming.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\bin\Debug\netcoreapp2.1\ObjectOrientedProgramming.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\bin\Debug\netcoreapp2.1\ObjectOrientedProgramming.dll
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\bin\Debug\netcoreapp2.1\ObjectOrientedProgramming.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.dll
+D:\ThusyStudyPath\Path\ThusyStudies\C#\ObjectOrientedProgramming\obj\Debug\netcoreapp2.1\ObjectOrientedProgramming.pdb
