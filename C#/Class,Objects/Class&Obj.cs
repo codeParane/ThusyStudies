@@ -2,10 +2,10 @@ using System;
 
 namespace Class_Objects
 {
-    //Class - properties and methods that are used to represent a  real time entity
-    // accessModifier class className{
-    //  implementaiton
-    // }
+    //Class - properties and methods or states and behaviour that are used to represent a  real time entity
+    //accessModifier class className{
+    // implementaiton
+    //}
     class Vehicle
     {
         //proerties
@@ -18,9 +18,9 @@ namespace Class_Objects
         // }
         public void canRun()
         {
+            int num = 10 ; //method variables
             Console.Write(name + " - " + engineCC);
-            Console.WriteLine("This Vehicle can Run");
+            Console.WriteLine("This Vehicle can Run " + num);
         }
     }
-
 }

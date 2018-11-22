@@ -15,7 +15,7 @@ namespace Class_Objects
             */
 
             /*
-            //Iterface.cs  - initilization
+            //Interface.cs  - initilization
             Student s1 = new Student();
             s1.canLearn();
             Console.WriteLine("is student passed ? " + s1.isPassed());
@@ -29,6 +29,13 @@ namespace Class_Objects
             ClsConstructor c2 = new ClsConstructor(20);
             GC.Collect();
             */
+
+            /* */
+            //Single Object needs to instantiate - for partial class
+            partialClass p1 = new partialClass();
+            p1.print1();
+            p1.print2();
+
         }
     }
 }
