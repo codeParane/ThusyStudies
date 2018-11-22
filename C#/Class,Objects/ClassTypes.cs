@@ -12,6 +12,20 @@ namespace Class_Objects
             Console.WriteLine("Partial class method 1 : " + num);
         }
     }
+
+    abstract class Driver{
+        string name = "Vehicles"; // can have an class variables
+        public void speed(){
+            Console.WriteLine(name + " All drivers have speed...");
+        }
+    }
+
+    class CarDriver : Driver{
+        public void carSpeed(){
+            Console.WriteLine("Car driver have special speed....");
+        }
+    }
+
 }
 
 

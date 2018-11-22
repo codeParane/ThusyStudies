@@ -30,12 +30,20 @@ namespace Class_Objects
             GC.Collect();
             */
 
-            /* */
+            /* 
             //Single Object needs to instantiate - for partial class
             partialClass p1 = new partialClass();
             p1.print1();
             p1.print2();
+            */
 
+            //cant instantiate directly from abstract class
+            // Driver d1 = new Driver();
+
+            //need another class for extend from abstract class
+            CarDriver c1 = new CarDriver();
+            c1.speed();
+            c1.carSpeed();
         }
     }
 }
