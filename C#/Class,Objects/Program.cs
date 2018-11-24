@@ -36,7 +36,8 @@ namespace Class_Objects
             p1.print1();
             p1.print2();
             */
-
+            
+            /* 
             //cant instantiate directly from abstract class
             // Driver d1 = new Driver();
 
@@ -44,6 +45,19 @@ namespace Class_Objects
             CarDriver c1 = new CarDriver();
             c1.speed();
             c1.carSpeed();
+            */
+
+            /* 
+            //sealed class can instantiate cant inherit
+            President p1 = new President();
+            President p2 = new President();
+            */
+
+
+            //static class cant instantiate 
+            //Government g1 = new Government();
+            //can access the properties and methods without instantiate the object
+            Government.ruleNation();
         }
     }
 }

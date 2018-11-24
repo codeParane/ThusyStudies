@@ -12,7 +12,7 @@ namespace Class_Objects
             Console.WriteLine("Partial class method 1 : " + num);
         }
     }
-
+    //Base class, cant have an implementation, needs to extend for instantiate
     abstract class Driver{
         string name = "Vehicles"; // can have an class variables
         public void speed(){
@@ -25,7 +25,21 @@ namespace Class_Objects
             Console.WriteLine("Car driver have special speed....");
         }
     }
+    
+    //just as normal class but restricted the inheritance 
+    sealed class President{
+        public President(){
+            Console.WriteLine("Sealed class instantiated...");
+        }  
+    }
 
+    //just as normal class but cant instantiate and inherite, can access properties and methods directly
+    //because static class will instantiate when compiling 
+    static class Government{
+        public static void ruleNation(){
+            Console.WriteLine("Government class instantiated...");
+        }
+    }
 }
 
 
