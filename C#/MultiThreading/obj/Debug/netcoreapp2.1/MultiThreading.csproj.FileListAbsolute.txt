@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\bin\Debug\netcoreapp2.1\MultiThreading.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\bin\Debug\netcoreapp2.1\MultiThreading.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\bin\Debug\netcoreapp2.1\MultiThreading.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\bin\Debug\netcoreapp2.1\MultiThreading.dll
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\bin\Debug\netcoreapp2.1\MultiThreading.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.dll
+D:\ThusyStudyPath\Path\ThusyStudies\C#\MultiThreading\obj\Debug\netcoreapp2.1\MultiThreading.pdb

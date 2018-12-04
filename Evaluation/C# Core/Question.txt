@@ -1,0 +1,28 @@
+1. method pass animal as para 
+	dog > bow bow
+	cat > meyow meyow
+	cow > ma ma
+	goat > mae mae
+	default > sound
+	
+
+2. get input user as number
+if 5
+1
+12
+123
+1234
+12345
+
+3.	When enter month return the season 
+ 	spring (March, April, May), 
+	summer (June, July, August), 
+	autumn (September, October, November) 
+	winter (December, January, February)
+
+4. get input from user until he entered 0, once entered return the max and min value 
+
+5. grade 100 > A > 80, 80 > B > 60, 60 > C 40, 40 > D > 20, 20 < F; (2)
+
+
+   

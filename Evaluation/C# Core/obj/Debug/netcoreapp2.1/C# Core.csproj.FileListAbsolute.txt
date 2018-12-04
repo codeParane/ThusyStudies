@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\bin\Debug\netcoreapp2.1\C# Core.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\bin\Debug\netcoreapp2.1\C# Core.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\bin\Debug\netcoreapp2.1\C# Core.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\bin\Debug\netcoreapp2.1\C# Core.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\bin\Debug\netcoreapp2.1\C# Core.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.dll
+D:\ThusyStudyPath\Path\ThusyStudies\Evaluation\C# Core\obj\Debug\netcoreapp2.1\C# Core.pdb
