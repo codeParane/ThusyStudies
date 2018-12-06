@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\bin\Debug\netcoreapp2.1\LogicPatterns.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\bin\Debug\netcoreapp2.1\LogicPatterns.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\bin\Debug\netcoreapp2.1\LogicPatterns.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\bin\Debug\netcoreapp2.1\LogicPatterns.dll
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\bin\Debug\netcoreapp2.1\LogicPatterns.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.dll
+D:\ThusyStudyPath\Path\ThusyStudies\LogicPatterns\obj\Debug\netcoreapp2.1\LogicPatterns.pdb
