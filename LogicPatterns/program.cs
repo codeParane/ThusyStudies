@@ -23,13 +23,9 @@ namespace LogicPatterns
         //print the palindrome number from an array
         static void printPalin(int _num){
             // needs to write the logic true > its a palindrome, false > its not a palindrome
-            
+            //2 3 4 3 2  ->  
+           // if()
         }
-
-
-
-
-
 
         //return the values which are not in 2 nd array from 1st array
         static void findValue(int[] _arr1, int[] _arr2)

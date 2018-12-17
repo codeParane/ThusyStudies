@@ -1,0 +1,11 @@
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\bin\Debug\netcoreapp2.1\SortingAlgorithm.deps.json
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\bin\Debug\netcoreapp2.1\SortingAlgorithm.runtimeconfig.json
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\bin\Debug\netcoreapp2.1\SortingAlgorithm.runtimeconfig.dev.json
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\bin\Debug\netcoreapp2.1\SortingAlgorithm.dll
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\bin\Debug\netcoreapp2.1\SortingAlgorithm.pdb
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.csprojAssemblyReference.cache
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.csproj.CoreCompileInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.AssemblyInfoInputs.cache
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.AssemblyInfo.cs
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.dll
+D:\ThusyStudyPath\Path\ThusyStudies\SortingAlgorithm\obj\Debug\netcoreapp2.1\SortingAlgorithm.pdb
