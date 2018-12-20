@@ -13,10 +13,19 @@ DBMS - Application that is used to manipulate the db.
     - username : user for access the db
     - password : passphrase for the particular user 
 
+Table - Entity
+Row - Record - Tuples
+Columns - Attributes - Fields
+student(student_id), enrollment(enrollment_id)
+
 #Keys
-    - Primary key : 
-    - foreign key :
-    - Composite Key :
+    - Primary key : set of one or more fields of a table that uniquely identify the record(no null, no duplicates) 
+    - foreign key : field of a table that is primary key in another table 
+    - Composite Key : combination of more than one columns of a table.
+    - Candidate Key : can work as a primary key
+    - Alternate key : that can be work as primary key but not primary key
+    - Unique key : similiar to primary key but can have an one null
+    - super key : set pf one or more than key
 
 #Basic Querys
     #DDL
@@ -24,10 +33,18 @@ DBMS - Application that is used to manipulate the db.
     Student(id, name, course_id), 
     course(id, name)
 
+    #DML
 
+#joins  
+    - JOIN | INNER JOIN : all records match the condition in both tables
+    - OUTER JOIN : 
+        LEFT OUTER JOIN | LEFT JOIN : all row from left table in conjuction with matching rows in right table
+        RIGHT OUTER JOIN | RIGHT JOIN : same as above but right
+        FULL OUTER | FULL JOIN : return condition not matched values
 
-
-
-
-
+   
+Grade | Class  
+1         A
+2         B 
+3         C
    
