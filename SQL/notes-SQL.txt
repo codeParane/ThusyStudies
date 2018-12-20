@@ -1,0 +1,33 @@
+#SQL
+Structured query language - can only query if the data is structured.
+
+DB - collection of data(meaningful information).
+DBMS - Application that is used to manipulate the db.
+    DDL - Data defination language (Used to manipulate the schema)
+        (Create, Alter, Drop)
+    DML - Data manipulation language (used to manipulate the data)
+        (Insert, Update, Delete, Select)
+
+#connection properties
+    - host : where the data locate
+    - username : user for access the db
+    - password : passphrase for the particular user 
+
+#Keys
+    - Primary key : 
+    - foreign key :
+    - Composite Key :
+
+#Basic Querys
+    #DDL
+    - DB: uvt, tbl: 
+    Student(id, name, course_id), 
+    course(id, name)
+
+
+
+
+
+
+
+   
