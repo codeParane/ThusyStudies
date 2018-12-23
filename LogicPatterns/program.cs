@@ -18,7 +18,7 @@ namespace LogicPatterns
             // findMax(num);
             // findMin(num);
         }
-
+ 
 
         //print the palindrome number from an array
         static void printPalin(int _num){

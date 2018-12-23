@@ -3,7 +3,7 @@ Structured query language - can only query if the data is structured.
 
 DB - collection of data(meaningful information).
 DBMS - Application that is used to manipulate the db.
-    DDL - Data defination language (Used to manipulate the schema)
+    DDL - Data defination language (Used to manipulate the schema
         (Create, Alter, Drop)
     DML - Data manipulation language (used to manipulate the data)
         (Insert, Update, Delete, Select)
@@ -27,20 +27,53 @@ student(student_id), enrollment(enrollment_id)
     - Unique key : similiar to primary key but can have an one null
     - super key : set pf one or more than key
 
+
+----------------------------------------
+
+
 #Basic Querys
     #DDL
-    - DB: uvt, tbl: 
-    Student(id, name, course_id), 
-    course(id, name)
+    - SHOW DATABASES : view all the databases in particular host
+    - USE <db_name> : to choose the database 
+    - CREATE DATABASE <db_name> : to create the database 
+    - CREATE TABLE <tbl_name>(<clm_name> <data_type(size)> *<special_condition>, ...)
+    - DESCRIBE/DESC <tbl_name> : to view the details of table
 
     #DML
+    - INSERT INTO <tbl_name> (<clm_name1>, <clm_name2>, <clm_name3>) VALUES (<val1>, <val2>, <val3>);
+        To add the records into the table.
+    - SELECT * FROM <tbl_name> 
+        to get the all records from table.
+    - SELECT <clm_name>,.... FROM <tbl_name>;
+        to get selected columns details from table.
+    - UPDATE <tbl_name> SET <clm_name> = <value>,.... WHERE <clm_name> = <value>;
+        to update the selected fields in the table.
+    - DELETE FROM <tbl_name> WHERE <clm_name> = <value>
+        to delete the records from table according to the condition
+    
+        - WHERE : Searching Criterias
+        Start with : SELECT * FROM <tbl_name> WHERE <clm_name> LIKE '<start_phase>%' 
+        end with :  SELECT * FROM <tbl_name> WHERE <clm_name> LIKE '%<end_phase>' 
+        and, or, not, =, <=, >= 
 
 #joins  
     - JOIN | INNER JOIN : all records match the condition in both tables
     - OUTER JOIN : 
-        LEFT OUTER JOIN | LEFT JOIN : all row from left table in conjuction with matching rows in right table
-        RIGHT OUTER JOIN | RIGHT JOIN : same as above but right
+        LEFT OUTER JOIN | LEFT JOIN : 
+            all row from left table in conjuction with matching rows in right table
+            SELECT * FROM <tbl_1> LEFT JOIN <tbl_2> ON <tbl_1.PKey> = <tbl_2.PKey>
+            it get all the records from left table and matched recors from right table
+        RIGHT OUTER JOIN | RIGHT JOIN : 
+            same as above but right
+            SELECT * FROM <tbl_1> RIGHT JOIN <tbl_2> ON <tbl_1.PKey> = <tbl_2.PKey>
+            it get all the records from left table and matched recors from right table
+
         FULL OUTER | FULL JOIN : return condition not matched values
+            SELECT * FROM <tbl_1> OUTER JOIN <tbl_2> ON <tbl_1.PKey> = <tbl_2.PKey>
+            get all the records from both tablve even matched or not.
+
+
+    
 
    
 Grade | Class  
@@ -48,3 +81,5 @@ Grade | Class
 2         B 
 3         C
    
+
+Schema - Collecction of database objects(Table )
