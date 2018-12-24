@@ -27,10 +27,6 @@ student(student_id), enrollment(enrollment_id)
     - Unique key : similiar to primary key but can have an one null
     - super key : set pf one or more than key
 
-
-----------------------------------------
-
-
 #Basic Querys
     #DDL
     - SHOW DATABASES : view all the databases in particular host
@@ -52,10 +48,15 @@ student(student_id), enrollment(enrollment_id)
         to delete the records from table according to the condition
     
         - WHERE : Searching Criterias
-        Start with : SELECT * FROM <tbl_name> WHERE <clm_name> LIKE '<start_phase>%' 
-        end with :  SELECT * FROM <tbl_name> WHERE <clm_name> LIKE '%<end_phase>' 
-        and, or, not, =, <=, >= 
+        WHERE <clm_name> LIKE 'a%'	Finds any values that start with "a"
+        WHERE <clm_name> LIKE '%a'	Finds any values that end with "a"
+        WHERE <clm_name> LIKE '%or%'	Finds any values that have "or" in any position
+        WHERE <clm_name> LIKE '_r%'	Finds any values that have "r" in the second position
+        WHERE <clm_name> LIKE 'a_%_%'	Finds any values that start with "a" and are at least 3 characters in length
+        WHERE <clm_name> LIKE 'a%o'	Finds any values that start with "a" and ends with "o"
 
+        = - Equal, <> - Not equal, > - Greater than, <	Less than, >=	Greater than or equal, <=	Less than or equal
+        BETWEEN	Between a certain range, LIKE -	Search for a pattern, IN - To specify multiple possible values for a column
 #joins  
     - JOIN | INNER JOIN : all records match the condition in both tables
     - OUTER JOIN : 
@@ -76,10 +77,3 @@ student(student_id), enrollment(enrollment_id)
     
 
    
-Grade | Class  
-1         A
-2         B 
-3         C
-   
-
-Schema - Collecction of database objects(Table )
