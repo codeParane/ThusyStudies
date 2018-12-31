@@ -1,0 +1,89 @@
+Algorithms
+Y? Searching
+types
+cost calculation
+
+bubble sort
+selection sort
+insertion sort
+
+Bubble Sort :
+int[] arr= {1  3  4  6  2  5}
+1 -> 1 3 4 6 2 5 :: 1 3 4 6 2 5
+2 -> 
+
+
+
+
+
+ int x=6;
+            bool isPrime = true;
+            for(int i=2;i<Math.Sqrt(x);i++){
+                if(x%i==0)
+                    isPrime = false;
+                
+            }
+
+            Console.Write("sqrt : " + Math.Sqrt(x) + " isPrime : " + isPrime);
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(80){       w-80,    b-1             w- 80*c1 + 80 * c2 + 80 * 10 * c3
+    if()     c1                         B- c1 + c2 + c3
+    else     c2       
+
+    switch(10)  c3  - //W-10   B-1
+}
+ 80*c1 + 80 * c2 + 80 * 10 * c3
+ 80(c1+c2+10c3)
+
+for(){
+    for()
+     if
+     else
+
+    break
+}
+
+
+
+9
+2 3 4 5 6 7 8 
+5
+2 3 4 
+
+
+x -> Prime numbers?
+10
+
+6
+2 3 4 5
+for(i=2;i<x-1;i++){
+    if(x%i==0)
+        console.log("x is not Prime")   c1     //(n-2) * c1   //Worst Case
+}
+
+
+6
+2
+for(i=2;i<^x;i++){
+    if(^x%i==0){
+        console.log("x is not prime")    c1    //(^n-1) * c1  //Best case
+    }
+}
+
+
+
+
+
+
