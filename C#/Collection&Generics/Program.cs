@@ -28,6 +28,8 @@ namespace Collection_Generics
             Console.Write("\nArrayList After Adding 4 value Capacity : " + Marks.Capacity); 
 
 
+
+
             Object a = Marks[10];
 
             //Hashtable <key, value> Pair
@@ -37,6 +39,7 @@ namespace Collection_Generics
             EmpDet.Add("s","qwerty");
             EmpDet.Remove("s");
             Console.Write(EmpDet["name"]);
+            
 
             //Queue - FIFO (not indexed base)
             Queue q1 = new Queue();
@@ -63,7 +66,9 @@ namespace Collection_Generics
 /*
 Insertaion Order, Sorting Order
 Key&value , Value only
-
+Searching 
+add/enqueue(value), insert(value + location)
+remove - tommorrow
 
 
  */
